@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab3</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" class="numberBox roundCorners" id="number">
+        <div class="display roundCorners" id="display"></div>
+        <button class="enter roundCorners" id="enter" onclick=valueFromBox()>Enter</button>
+        <button class="btnSum roundCorners" id="sum" onclick=operazione("+")>+</button>
+        <button class="btnSub roundCorners" id="sub" onclick=operazione("-")>-</button>
+        <button class="btnProd roundCorners" id="prod" onclick=operazione("x")>X</button>
+        <button class="btnDiv roundCorners" id="div" onclick=operazione("/")>/</button>
+        <button class="btnRad roundCorners" id="rad" onclick=operazione("rad")>rad</button>
+        <button class="btnInv roundCorners" id="inv" onclick=operazione("inv")>1/x</button>
+        <button class="btnLog roundCorners" id="log" onclick=operazione("log")>log</button>
+        <button class="btnExp roundCorners" id="exp" onclick=operazione("exp")>exp</button>
+        <button class="btnC roundCorners" id="c" onclick=c()>C</button>
+        <button class="btnBack roundCorners" id="back" onclick=operazione("back")>&#11013</button>
+    </div>
+
+<script>
+    let valori = []
+    let error = false
+
+    function stampaNumeri(){
+        if(!error) {
+            document.getElementById("display").innerHTML = ""
+            for (let i = valori.length < 5 ? 0 : valori.length - 5; i < valori.length - 1; i++)
+                document.getElementById("display").innerHTML += String(valori[i]) + "<br>"
+            if (valori.length !== 0) {
+                document.getElementById("display").innerHTML += "<b>" + String(valori[valori.length - 1]) + "</b>"
+            }
+        }
+        else
+            document.getElementById("display").innerText = "Stato di ERRORE"
+    }
+
+    function valueFromBox(){
+        if(!error) {
+            let x = Number(document.getElementById("number").value)
+            if (isNaN(x)) statoDiErrore()
+            else {
+                valori.push(x)
+                stampaNumeri()
+                }
+            document.getElementById("number").value = ""
+        }
+    }
+
+    document.getElementById("number").addEventListener("keyup", function(event){
+        event.preventDefault()
+        if(event.key === 'Enter'){
+            document.getElementById("enter").click()
+        }
+    })
+
+    function operazione(x) {
+        let y, z
+        if(!error) {
+            switch (x) {
+                case "+":
+                    z = estrazioneNum() + estrazioneNum()
+                    break
+                case "-":
+                    y = estrazioneNum()
+                    z = estrazioneNum() - y
+                    break
+                case "x":
+                    z = estrazioneNum() * estrazioneNum()
+                    break
+                case "/":
+                    y = estrazioneNum()
+                    z = estrazioneNum() / y
+                    break
+                case "rad":
+                    z = Math.sqrt(estrazioneNum())
+                    break
+                case "inv":
+                    z = 1 / estrazioneNum()
+                    break
+                case "log":
+                    z = Math.log(estrazioneNum())
+                    break
+                case "exp":
+                    z = Math.exp(estrazioneNum())
+                    break
+                case "back":
+                    estrazioneNum()
+            }
+            if (isNaN(z)) statoDiErrore()
+            else valori.push(z)
+            stampaNumeri()
+        }
+    }
+
+    function c(){
+        if(error)
+            error = false
+        valori = []
+        stampaNumeri()
+    }
+
+    function estrazioneNum(){
+        let x = valori.pop()
+        if(x === undefined) statoDiErrore()
+        else return x
+    }
+
+    function statoDiErrore(){
+        error = true
+        stampaNumeri()
+    }
+
+</script>
+</body>
+</html>

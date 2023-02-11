@@ -1,0 +1,65 @@
+body{
+    font-family: Arial;
+}
+
+.container{
+    gap: 3px;
+    display: grid;
+    grid-template:
+        "numberBox enter enter" 20%
+        "display btnSum btnSub" 20%
+        "display btnProd btnDiv" 20%
+        "display btnRad btnInv" 20%
+        "display btnLog btnExp" 20%
+        "display btnC btnBack" 20%
+    / 70% 15% 15%;
+}
+
+.roundCorners{
+    border-radius: 5px;
+}
+
+.numberBox{
+    grid-area: numberBox;
+}
+
+.btnSum{
+    grid-area: btnSum;
+}
+.btnSub{
+    grid-area: btnSub;
+}
+.btnProd{
+    grid-area: btnProd;
+}
+.btnDiv{
+    grid-area: btnDiv;
+}
+.btnRad{
+    grid-area: btnRad;
+}
+.btnInv{
+    grid-area: btnInv;
+}
+.btnLog{
+    grid-area: btnLog;
+}
+.btnExp{
+    grid-area: btnExp;
+}
+.btnC{
+    grid-area: btnC;
+}
+.btnBack{
+    grid-area: btnBack;
+}
+
+.display{
+    grid-area: display;
+    background-color: khaki;
+    resize: none;
+}
+
+.enter{
+    grid-area: enter;
+}
