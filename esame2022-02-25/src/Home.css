@@ -1,0 +1,36 @@
+.header {
+    border-radius: 5px;
+    background-color: royalblue;
+    text-align: center;
+    color: whitesmoke;
+    word-wrap: break-word;
+    white-space:normal;
+    min-height: 1.5em;
+}
+
+.column{
+    border-radius: 5px;
+    border: solid 1px lightgrey;
+    display: inline-block;
+    vertical-align: top;
+    width: 15em;
+    margin: 1px;
+}
+
+.row2{
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+.toolbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-top: solid 1px lightgrey;
+    border-bottom: solid 1px grey;
+}
+
+*{
+    box-sizing: border-box;
+}

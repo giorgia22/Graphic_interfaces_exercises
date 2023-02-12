@@ -1,0 +1,16 @@
+.colonnaForm{
+    padding: 1em;
+    position: absolute;
+    left: 5em;
+    top: 5em;
+    background-color: lightgrey;
+    border: black solid 2px;
+    text-align: left;
+}
+
+.esc{
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    background-color: crimson;
+}

@@ -1,0 +1,11 @@
+.oldTask{
+    background-color: royalblue;
+    border: 1px solid grey;
+    margin: 3px 1em;
+    color: whitesmoke;
+    padding: 5px;
+}
+
+.st-arc {
+    width: 10em;
+}

@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.Half{
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px;
+  height: 100%;
+}
+.MainRow{
+  height: 100vh;
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d2eb81bd-6949-4f6c-b5bb-d0621d259131" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Lab3/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/esame2022-02-25/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/esame2022-02-25/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/esame2022-02-25/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/esame2022-02-25/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/esame2022-02-25/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/esame2022-02-25/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/esame2022-02-25/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/esame2022-02-25/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/esame2022-02-25/static/css/main.402e8a50.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/esame2022-02-25/static/css/main.402e8a50.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/esame2022-02-25/static/js/787.1de96647.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/esame2022-02-25/static/js/787.1de96647.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/esame2022-02-25/static/js/main.880f1069.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/esame2022-02-25/static/js/main.880f1069.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/esame2022-02-25/static/js/main.880f1069.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/static/css/main.c7868602.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/static/css/main.c7868602.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/static/js/787.90895c91.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/static/js/787.90895c91.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/static/js/main.44c375dd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/static/js/main.44c375dd.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/static/js/main.44c375dd.js.map" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2LdOuWyZ29pooKo62dQLQT7CD7h" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/giogio/Documents/GitHub/Graphic_interfaces_exercises",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2eb81bd-6949-4f6c-b5bb-d0621d259131" name="Changes" comment="" />
+      <created>1676197715631</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676197715631</updated>
+      <workItem from="1676197716896" duration="25000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

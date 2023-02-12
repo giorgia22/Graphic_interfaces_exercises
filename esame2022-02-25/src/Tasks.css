@@ -1,0 +1,15 @@
+.title{
+    text-align: center;
+    font-weight: bold;
+}
+
+.task{
+    border-radius: 5px;
+    border: 1px ;
+    padding: 5px;
+    margin: 2px;
+}
+
+.st-tsk {
+    width: 8em;
+}
